@@ -13,7 +13,7 @@ Laboratorium 3.
 Zad. 7. Kazde slowo pliku wyswietlane w osobnej linii
 
 ```sh
-cat plik.txt | tr " " "\n"
+cat plik.txt | tr " \t" "\n"
 ```
 
 Zad 8. Zlicz wszystkie pliki znajdujące się w katalogu /etc i jego podkatalogach.
