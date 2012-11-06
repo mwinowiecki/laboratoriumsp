@@ -10,6 +10,12 @@ tail -n 4 program.c
 
 Laboratorium 3.
 
+Zad. 7. Kazde slowo pliku wyswietlane w osobnej linii
+
+```sh
+cat plik.txt | tr " " "\n"
+```
+
 Zad 8. Zlicz wszystkie pliki znajdujące się w katalogu /etc i jego podkatalogach.
 
 ```sh
