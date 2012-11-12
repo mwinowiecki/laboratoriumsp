@@ -19,7 +19,7 @@ cat plik.txt | tr " \t" "\n"
 Zad 8. Zlicz wszystkie pliki znajdujące się w katalogu /etc i jego podkatalogach.
 
 ```sh
-find etc -type f -follow | wc -l
+find /etc -type f -follow | wc -l
 ```
 
 Zad. 9 Zlicz ilosc znakow z 3 pierwszych lini pliku /etc/passwd
