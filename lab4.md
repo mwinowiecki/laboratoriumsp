@@ -5,7 +5,7 @@ ls | tr a-z A-Z
 
 Zad. 2
 ```sh
-ls -l | cut -b 1-10,25-33,46-
+ls -l | cut -b 1-10,33-37,51-
 ```
 
 Zad. 3
