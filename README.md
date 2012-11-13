@@ -26,11 +26,3 @@ Zad. 9 Zlicz ilosc znakow z 3 pierwszych lini pliku /etc/passwd
 ```sh
 cat /etc/passwd/ | head -n 3 | wc -m
 ```
-
-Laboratorium 4
-
-Zad. 3
-
-```sh
-ls -l -S
-```
