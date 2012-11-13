@@ -15,12 +15,12 @@ ls -lS
 
 Zad. 4
 ```sh
-cat /etc/passwd | sort -r --field-separator=":" -g -k 3
+cat /etc/passwd | sort -r --field-separator=":" -n -k 3
 ```
 
 Zad. 5
 ```sh
-cat /etc/passwd | sort -r --field-separator=":" -g -k 4,3
+cat /etc/passwd | sort -r --field-separator=":" -n -k 4,3
 ```
 
 Zad. 6
