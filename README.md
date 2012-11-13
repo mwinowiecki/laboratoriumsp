@@ -24,5 +24,5 @@ find /etc -type f -follow 2> errors | wc -l
 
 Zad. 9 Zlicz ilosc znakow z 3 pierwszych lini pliku /etc/passwd
 ```sh
-cat /etc/passwd/ | head -n 3 | wc -m
+cat /etc/passwd | head -n 3 | wc -m
 ```
