@@ -1,24 +1,29 @@
 Zad. 1
-``sh
+```sh
 find ~/ -maxdepth 1 -mtime -10
 ```
 
 Zad. 2
-``sh
+```sh
 find  / -name \*config\* -type f 2> /dev/null
 ```
 
 Zad. 3
-``sh
+```sh
 find ~/ -atime 20
 ```
 
 Zad. 4
-``sh
+```sh
 find /etc \( -type f -and -name a* \) -or \( -type d -and ! -empty \) 2> /dev/null
 ```
 
 Zad. 5
-``sh
+```sh
+rm x??
+```
+
+Zad. 6
+```sh
 mkdir date +%Y-%m-%d
 ```
