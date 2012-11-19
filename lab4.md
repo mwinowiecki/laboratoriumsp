@@ -25,5 +25,5 @@ cat /etc/passwd | sort -r --field-separator=":" -n -k 4,3
 
 Zad. 6
 ```sh
-find / -printf "%u\n" 2> /dev/null | sort | uniq -c
+find /katalog -printf "%u\n" 2> /dev/null | sort | uniq -c
 ```
