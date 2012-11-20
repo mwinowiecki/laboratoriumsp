@@ -1,8 +1,8 @@
 Zad. 1
 ```sh
-//maxdepth musi byc na poczatku
 find . -maxdepth 1 -mtime -10 -type f
 ```
+//maxdepth musi byc na poczatku
 
 Zad. 2
 ```sh
@@ -11,7 +11,7 @@ find  /etc -name \*config\* -type f 2> /dev/null
 
 Zad. 3
 ```sh
-find ~/ -atime 20
+find -mtime 20 | egrep -v '\.git'
 ```
 
 Zad. 4
