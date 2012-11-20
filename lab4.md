@@ -27,3 +27,8 @@ Zad. 6
 ```sh
 find /katalog -printf "%u\n" 2> /dev/null | sort | uniq -c
 ```
+
+Zad. 7
+```sh
+find -printf "%m\n" | sort | uniq -c
+```
