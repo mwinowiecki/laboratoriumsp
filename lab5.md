@@ -1,11 +1,12 @@
 Zad. 1
 ```sh
-find ~/ -maxdepth 1 -mtime -10
+//maxdepth musi byc na poczatku
+find . -maxdepth 1 -mtime -10 -type f
 ```
 
 Zad. 2
 ```sh
-find  / -name \*config\* -type f 2> /dev/null
+find  /etc -name \*config\* -type f 2> /dev/null
 ```
 
 Zad. 3
