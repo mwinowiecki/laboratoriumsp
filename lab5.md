@@ -49,6 +49,21 @@ Zad. 5
 rm x??
 ```
 
+//podobno nie działa:
+```sh
+find . -name "a??"-exec rm -rf {} \;
+```
+
+//a to podobno działa:
+```sh
+find . -mindepth 2 -maxdepth 2 -name "x??" -exec rm -rf \(\) \;
+```
+
+//a to dziala podobno, i jest krocej
+```sh
+find . -mindepth 2 -maxdepth 2 -name x?? -delete
+```
+
 Zad. 6
 ```sh
 mkdir date +%Y-%m-%d
