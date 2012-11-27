@@ -66,5 +66,5 @@ find . -mindepth 2 -maxdepth 2 -name x?? -delete
 
 Zad. 6
 ```sh
-mkdir date +%Y-%m-%d
+mkdir $(date +%Y-%m-%d)
 ```
