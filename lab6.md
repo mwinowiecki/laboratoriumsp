@@ -22,6 +22,10 @@ Zad. 4
 ```sh
 grep -c bash /etc/passwd
 ```
+Jest dobrze, ale jezeli zrobimy sobie pod górkę to:
+```sh
+grep -c /bash$ /etc/passwd
+```
 
 Zad. 5
 dziala czesciowo
