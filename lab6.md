@@ -13,9 +13,8 @@ egrep ^[[:digit:]] pl*
 ```
 
 Zad. 3
-wyswietla nazwe pliku z literą 'r' na 9 miejscu
 ```sh
-ls -1 | grep -E '^.{8}r.*' pl*
+grep -E '^.{8}r' pl*
 ```
 
 Zad. 4
