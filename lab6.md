@@ -7,6 +7,10 @@ Zad. 2
 ```sh
 grep ^[0-9] pl*
 ```
+lub
+```sh
+egrep ^[[:digit:]] pl*
+```
 
 Zad. 3
 wyswietla nazwe pliku z literą 'r' na 9 miejscu
