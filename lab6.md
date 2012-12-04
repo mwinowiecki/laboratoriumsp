@@ -9,6 +9,7 @@ grep ^[0-9] pl*
 ```
 
 Zad. 3
+wyswietla nazwe pliku z literą 'r' na 9 miejscu
 ```sh
 ls -1 | grep -E '^.{8}r.*'
 ```
@@ -19,6 +20,7 @@ grep -c bash /etc/passwd
 ```
 
 Zad. 5
+dziala czesciowo
 ```sh
 grep [IVXLCDM] plik.txt
 ```
