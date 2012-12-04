@@ -14,7 +14,7 @@ egrep ^[[:digit:]] pl*
 
 Zad. 3
 ```sh
-grep -E ^.{8}r pl*
+grep -E ^.{8}r *
 ```
 Tego wyrażenia nie trzeba umieszczać w apostrofach.
 
