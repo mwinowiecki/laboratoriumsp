@@ -30,5 +30,5 @@ grep -c /bash$ /etc/passwd
 Zad. 5
 dziala czesciowo
 ```sh
-grep [IVXLCDM] plik.txt
+egrep -iw [IVXLCDM]+ plik.txt
 ```
