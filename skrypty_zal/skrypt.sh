@@ -15,7 +15,7 @@ cut -b 15-200 adres.txt > adres1.txt              #obciecie poczatku linijki kod
 cd ..
 cd komiks                 #bez tego pozniejsze polecenie 'tr' nie widzialo plikow
 
-cat adres1.txt | tr "\"" " " > adres.txt      #zamiana ostatniego cudzyslowu na spacje
-wget -q -i adres.txt -O komix.jpg       #pobranie konkretnego obrazka dzieki otrzymanemu wyzej linkowi :)
+cat adres1.txt | tr "\"" " " > adres2.txt      #zamiana ostatniego cudzyslowu na spacje
+wget -q -i adres2.txt -O komix.jpg       #pobranie konkretnego obrazka dzieki otrzymanemu wyzej linkowi :)
 
 gwenview -f komix.jpg       #otworzenie grafiki przegladarka obrazow (tutaj Gwenview) - nalezy dostosowac do wlasnej dystrybucji
