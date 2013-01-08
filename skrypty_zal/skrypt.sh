@@ -1,6 +1,5 @@
 #!/bin/sh
-#
-export DISPLAY=:0.0
+
 
 ping -c 1 komixxy.pl > /dev/null || exit 1    #jesli polaczenie jest -> dalsze dzialanie skryptu
 
