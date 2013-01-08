@@ -19,3 +19,7 @@ cat adres1.txt | tr "\"" " " > adres2.txt      #zamiana ostatniego cudzyslowu na
 wget -q -i adres2.txt -O komix.jpg       #pobranie konkretnego obrazka dzieki otrzymanemu wyzej linkowi :)
 
 gthumb -f komix.jpg       #otworzenie grafiki przegladarka obrazow (tutaj Gwenview) - nalezy dostosowac do wlasnej dystrybucji
+
+
+#dopisac jakies komunikaty np o bledach, braku polaczenia, funkcje, cd na pushd i popd, wurzucac na ekran komunikaty
+#od egrepa, dopracowac ten cut
