@@ -99,7 +99,7 @@ do
 	h) pomoc >&2 ; exit;;
 	v) wer >&2 ; exit;;
 	a) autor >&2 ; exit;;
-	\?) echo -e "Bledna opcja: -$OPTARG\n Sprobuj -h zeby wyswietlic pomoc" >&2 ; exit;;
+	\?) echo -e "Bledna opcja: -$OPTARG\nSprobuj -h zeby wyswietlic pomoc" >&2 ; exit;;
 	esac
 done
 
