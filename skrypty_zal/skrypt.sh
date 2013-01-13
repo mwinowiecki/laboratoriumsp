@@ -99,7 +99,7 @@ do
 	h) pomoc >&2 ; exit;;
 	v) wer >&2 ; exit;;
 	a) autor >&2 ; exit;;
-	\?) echo "Invalid option: -$OPTARG" >&2 ;;
+	\?) echo "Invalid option: -$OPTARG" >&2 ; exit;;
 	esac
 done
 
