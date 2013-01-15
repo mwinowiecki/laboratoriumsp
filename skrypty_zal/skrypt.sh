@@ -5,7 +5,7 @@
 function pomoc
 {
   echo -e "Program wyswietla losowy komiks z serwisu komixxy.pl\n"
-  echo "Skladnia:  ./komix.sh     lub"
+  echo "Skladnia:	./komix.sh     lub"
   echo "		./komix.sh OPCJA"
   echo -e "\nDostepne opcje:\n\n	-a	Wyswietla informacje o autorze"
   echo -e "\n	-h	Wyswietla pomoc i liste opcji"
@@ -46,6 +46,7 @@ function blad
 
 function spr_pol
 {
+  sleep 5
   ping -c 1 komixxy.pl > /home/$USER/.komix.log 2>&1 || blad    #jesli polaczenie jest -> dalsze dzialanie skryptu
 }
 
@@ -84,7 +85,6 @@ function wyswietl
 
 function komiks
 {
-  sleep 4
   spr_pol
   pobierz
   wyswietl
