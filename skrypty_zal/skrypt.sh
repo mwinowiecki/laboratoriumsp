@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 #Wszystkie szczegoly dzialania progamu znajdziesz w /home/$USER/.komix.log
 
